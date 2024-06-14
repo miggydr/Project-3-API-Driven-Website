@@ -1,0 +1,25 @@
+.title{
+    font-size: 64px;
+    color: orange;
+    text-shadow: 2px 2px 20px #000000;
+}
+
+.loader{
+    display: none;
+    height: 150px;
+    width: 150px;
+    border: 30px solid gray;
+    border-radius: 50%;
+    border-top-color: orange;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    animation: spin 1s infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
