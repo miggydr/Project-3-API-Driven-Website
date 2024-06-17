@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="bg-dark">
-
+<body>
     <main>
         <div class="container-fluid mt-5">
             <h1 class="fw-bold p-5 text-center title">GIF GENERATOR</h1>
@@ -19,15 +18,18 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="ms-auto col-md-6">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 rounded-start-pill" type="search" placeholder="Search for your favorite GIFs" aria-label="Search" id="search-box" value="laugh">
-                    <button class="btn btn-outline-warning rounded-end-pill" type="submit" id="submit-btn">Search</button>
+                <form class="d-flex" role="search" id="search-form">
+                    <input class="form-control me-2 rounded-start-pill" type="search"
+                        placeholder="Search for your favorite GIFs" aria-label="Search" id="search-box" value="coding">
+                    <button class="btn btn-outline-warning rounded-end-pill" type="submit"
+                        id="submit-btn">Search</button>
                 </form>
             </div>
             <div class="col-md-3"></div>
-            <div class="loader"></div>
-            <div class="wrapper"></div>
         </div>
+        <br>
+        <div class="loader"></div>
+        <div class="wrapper"></div>
 
     </main>
 
